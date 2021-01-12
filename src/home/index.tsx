@@ -4,6 +4,7 @@ import { IoHappy } from "react-icons/io5";
 import { IoCalendar } from "react-icons/io5";
 import { IoInformationCircle } from "react-icons/io5";
 import cropped from '../img/cropped.png'
+import gestantes from '../img/gestantes.jpg'
 import './style.css';
 
 function Conteudo(){
@@ -35,9 +36,24 @@ function Conteudo(){
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id neque sed augue fermentum blandit. Fusce nec justo in lectus pellentesque mattis et vel tortor.</p>
         </div>
       </div>
-      <div id='portfolio'>
-        <h2>Portfolio</h2>
-        <h3>Somos especialistas em guardar momentos.</h3>
+    <div id="portfolio">
+        <div className="titulo233">
+          <h2>Portfolio</h2>
+          <p>Somos especialistas em guardar momentos.</p>
+        </div>
+        <a href="" className="gestante">
+          <img src={gestantes} alt=""/>
+        </a>
+        <a href="" className="bebe">
+          <img src={cropped} alt=""/>
+        </a>
+        <a href="" className="natal">
+          <img src={cropped} alt=""/>
+        </a>
+        <a href="" className="festa">
+          <img src={cropped} alt=""/>
+        </a>
+       
       </div>
       <div id="QuemSomos">
           <h2>Quem somos</h2>
@@ -45,7 +61,7 @@ function Conteudo(){
             <img src={cropped} alt=""/>
           </div>
          
-          <div id="textoAEC">
+          <div id="textoAECs">
             <p>A A&C PHOTOS é uma empresa que começou com uma ideia simples
             e descosmprometida de apenas tirar fotos. Mas com o passar do tempo
             vimos o quão importante para as pessoas e quão grande aquela ideia
