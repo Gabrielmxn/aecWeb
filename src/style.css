@@ -1,0 +1,30 @@
+
+
+:root{
+  font-size: 80%;
+  --color-black: #000000;
+  --color-grey11:#1C1C1C;
+  --color-grey21:#363636;
+  --color-grey31: #4F4F4F;
+  --color-DimGray:#696969;
+  --color-gains: 	#DCDCDC;
+  --color-white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+html, body {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}

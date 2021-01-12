@@ -1,0 +1,206 @@
+.comprometimentoData h2, .comprometimentoData p {
+  font-size: 1.2rem;
+  margin-top: 1.4rem;
+ 
+}
+
+svg {
+  fill: black;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.container{
+  text-align: center;
+  width: 100%;
+  margin: 50px auto;
+}
+
+#conteudo {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+#conteudo .titulow {
+  margin-bottom: 30px;
+  flex: 1;
+}
+#conteudo .grid1{
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  flex: 100%;
+} 
+#conteudo .grid2{
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  flex: 100%;
+} 
+#conteudo .grid3{
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  flex: 100%;
+} 
+#conteudo .grid4{
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+  flex: 100%;
+} 
+
+
+#QuemSomos {
+  width: 80%;
+  margin: 0 auto;
+}
+#QuemSomos #imgQuemSomos img{
+  margin: 30px 0;
+  width: 150px;
+  border-radius: 50%;
+ 
+ }
+
+ #QuemSomos #textoAEC{
+  width: 80%;
+  margin: 0 auto;
+  text-justify: inter-word;
+ 
+ }
+
+ #QuemSomos #textoAEC p{
+   text-align: justify;
+   margin: 20px 0;
+ 
+ }
+
+
+
+
+@media(min-width: 1100px){
+  /*Conteudo informativo */
+  .container{
+
+    width: 100%;
+    max-width: 1140px;
+    margin: 50px auto;
+  }
+  #conteudo {
+    margin-bottom: 80px;
+    display: grid;
+    text-align: center;
+    gap: 50px;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'titulo titulo'
+    'grid1 grid2'
+    'grid3 grid4';
+  }
+
+  #conteudo .titulow {
+    grid-area: titulo;
+  }
+  #conteudo .grid1{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    grid-area: grid1;
+  } 
+  #conteudo .grid2{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    grid-area: grid2;
+  } 
+  #conteudo .grid3{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    grid-area: grid3;
+  } 
+  #conteudo .grid4{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -webkit-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    -moz-box-shadow: 1px 0px 29px 6px rgba(3,3,3,0.28);
+    grid-area: grid4;
+  } 
+  .comprometimentoData h2, .comprometimentoData p {
+  
+    margin-top: 1.4rem;
+   
+  }
+  
+  svg {
+    fill: black;
+    height: 2rem;
+    width: 2rem;
+  }
+  /*fim conteudo */
+  /*QuemSOmos */
+ #QuemSomos{
+   text-align: center;
+   display: grid;
+   grid-template-rows: 50px 1fr;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+    'tituloQuemSomos tituloQuemSomos'
+    'imagem texto';
+ }
+ #QuemSomos h2 {
+   font-weight: bold;
+   font-size: 1.6rem;
+   grid-area: tituloQuemSomos;
+ }
+
+ #QuemSomos #imgQuemSomos {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  
+  grid-area: imagem;
+}
+
+#QuemSomos #imgQuemSomos img{
+ width: 150px;
+ border-radius: 50%;
+
+}
+
+#QuemSomos #textoAEC {
+  font-size: 1.2rem;
+  grid-area: texto;
+}
+
+#QuemSomos p {
+  margin-top: 20px;
+  grid-area: texto;
+}
+  /*fim quem somos */
+}
