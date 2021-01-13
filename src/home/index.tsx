@@ -5,6 +5,8 @@ import { IoCalendar } from "react-icons/io5";
 import { IoInformationCircle } from "react-icons/io5";
 import cropped from '../img/cropped.png'
 import gestantes from '../img/gestantes.jpg'
+import bebe from '../img/bebe.png'
+import natal from '../img/natal.webp';
 import './style.css';
 
 function Conteudo(){
@@ -43,25 +45,44 @@ function Conteudo(){
         </div>
         <a href="" className="gestante">
           <img src={gestantes} alt=""/>
+          <h2>Gestantes</h2>
         </a>
         <a href="" className="bebe">
-          <img src={cropped} alt=""/>
+          <img src={bebe} alt=""/>
+          <h2>Bebe</h2>
         </a>
         <a href="" className="natal">
-          <img src={cropped} alt=""/>
+          <img src={natal} alt=""/>
+          <h2>Natal</h2>
         </a>
         <a href="" className="festa">
           <img src={cropped} alt=""/>
+          <h2>Festa</h2>
         </a>
-       
+        <a href="" className="gestante">
+          <img src={gestantes} alt=""/>
+          <h2>Gestantes</h2>
+        </a>
+        <a href="" className="bebe">
+          <img src={bebe} alt=""/>
+          <h2>Bebe</h2>
+        </a>
+        <a href="" className="natal">
+          <img src={natal} alt=""/>
+          <h2>Natal</h2>
+        </a>
+        <a href="" className="festa">
+          <img src={cropped} alt=""/>
+          <h2>Festa</h2>
+        </a>
       </div>
       <div id="QuemSomos">
-          <h2>Quem somos</h2>
+          <h2>Sobre</h2>
           <div id="imgQuemSomos">
             <img src={cropped} alt=""/>
           </div>
          
-          <div id="textoAECs">
+          <div id="textoAEC">
             <p>A A&C PHOTOS é uma empresa que começou com uma ideia simples
             e descosmprometida de apenas tirar fotos. Mas com o passar do tempo
             vimos o quão importante para as pessoas e quão grande aquela ideia
