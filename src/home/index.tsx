@@ -75,7 +75,9 @@ function Conteudo(){
         <span>- Gabriel</span>
       </div>*/}
       <div id="QuemSomos">
-          <h2>Sobre</h2>
+          <div className="tituloSobre tituloTexto">
+            <h2>Sobre</h2>
+          </div>
           <div id="imgQuemSomos">
             <img src={cropped} alt=""/>
           </div>
