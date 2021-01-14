@@ -3,6 +3,8 @@ import { IoRibbon } from "react-icons/io5";
 import { IoHappy } from "react-icons/io5";
 import { IoCalendar } from "react-icons/io5";
 import { IoInformationCircle } from "react-icons/io5";
+import { IoAddCircleOutline } from "react-icons/io5";
+
 import cropped from '../img/cropped.png'
 import gestantes from '../img/gestantes.jpg'
 import bebe from '../img/bebe.png'
@@ -43,39 +45,35 @@ function Conteudo(){
           <h2>Portfolio</h2>
           <p>Somos especialistas em guardar momentos.</p>
         </div>
-        <a href="" className="gestante">
+        <a href="" className="gestante imagePortfolio">
           <img src={gestantes} alt=""/>
           <h2>Gestantes</h2>
         </a>
-        <a href="" className="bebe">
+        <a href="" className="bebe imagePortfolio">
           <img src={bebe} alt=""/>
           <h2>Bebe</h2>
         </a>
-        <a href="" className="natal">
+        <a href="" className="natal imagePortfolio">
           <img src={natal} alt=""/>
           <h2>Natal</h2>
         </a>
-        <a href="" className="festa">
+       
+        <a href="" className="festa imagePortfolio">
           <img src={cropped} alt=""/>
           <h2>Festa</h2>
         </a>
-        <a href="" className="gestante">
-          <img src={gestantes} alt=""/>
-          <h2>Gestantes</h2>
-        </a>
-        <a href="" className="bebe">
-          <img src={bebe} alt=""/>
-          <h2>Bebe</h2>
-        </a>
-        <a href="" className="natal">
-          <img src={natal} alt=""/>
-          <h2>Natal</h2>
-        </a>
-        <a href="" className="festa">
-          <img src={cropped} alt=""/>
-          <h2>Festa</h2>
-        </a>
+        <div className="button">
+          <a href="">
+            <button className="third">VER MAIS</button>
+          </a>
+        </div>
       </div>
+
+     {/* <div id="feedback">
+        <img src={cropped} alt=""/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id neque sed augue fermentum blandit. Fusce nec justo in lectus pellentesque mattis et vel tortor.</p>
+        <span>- Gabriel</span>
+      </div>*/}
       <div id="QuemSomos">
           <h2>Sobre</h2>
           <div id="imgQuemSomos">
