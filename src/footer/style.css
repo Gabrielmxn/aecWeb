@@ -1,0 +1,98 @@
+
+#footer {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  display: flex;
+  justify-content:space-evenly;
+  align-content: center;
+  margin-top: 30px;
+  padding: 1.2rem 0;
+
+}
+
+#logo svg {
+  
+  width: 15rem;
+  height: 5rem;
+}
+
+
+.w {
+ 
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-right: 1.1rem;
+}
+#logo-social {
+  flex: 100%;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+#logo-social a{
+ margin-left: 2rem;
+}
+
+ span{
+
+  flex: 100%;
+  font-size: 0.7rem;
+  
+}
+
+#logo-social svg g {
+ 
+  fill: black !important;
+}
+
+#logo-social svg{
+  height: 1rem;
+  width: 1rem;
+  fill: black;
+}
+
+@media (min-width: 1100px){
+
+  #footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logow social";
+    
+  
+  }
+  #logo svg {
+    position: relative;
+    width: 12rem;
+    height: 8rem;
+    fill: white !important;
+    grid-area: logow;
+   
+  }
+  #logo a svg g {
+   
+    fill: white !important;
+  }
+
+  #logo-social svg{
+    width: 1.5rem;
+    height: 2rem;
+    fill: white;
+  }
+  span{
+
+    flex: 100%;
+    font-size: 1rem;
+    
+  }
+  .w {
+    display: grid;
+    grid-area: social;
+
+  }
+}

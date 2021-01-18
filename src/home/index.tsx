@@ -10,6 +10,11 @@ import gestantes from '../img/gestantes.jpg'
 import bebe from '../img/bebe.png'
 import natal from '../img/natal.webp';
 import './style.css';
+import './script';
+
+
+
+
 
 function Conteudo(){
   return(
@@ -63,9 +68,7 @@ function Conteudo(){
           <h2>Festa</h2>
         </a>
         <div className="button">
-          <a href="">
             <button className="third">VER MAIS</button>
-          </a>
         </div>
       </div>
 
@@ -74,6 +77,9 @@ function Conteudo(){
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id neque sed augue fermentum blandit. Fusce nec justo in lectus pellentesque mattis et vel tortor.</p>
         <span>- Gabriel</span>
       </div>*/}
+
+
+
       <div id="QuemSomos">
           <div className="tituloSobre tituloTexto">
             <h2>Sobre</h2>
@@ -102,4 +108,8 @@ function Conteudo(){
   );
 }
 
+
+
+
 export default Conteudo;
+

@@ -23,13 +23,17 @@ function Menu(){
               <li className="item"><a href="#">Área do cliente</a></li>
               <li className="item"><a href="#">Depoimentos</a></li>
             </ul>
-            <ul id="menu-mobile">
-              <a href="#"><li className="item-Menu">Home</li></a>
-              <a href="#"><li className="item-Menu">Portfólio</li></a>
-              <a href="#QuemSomos"><li className="item-Menu">Sobre</li></a>
-              <a href="#"><li className="item-Menu">Área do cliente</li></a>
-              <a href="#"><li className="item-Menu">Depoimentos</li></a>
-            </ul>
+            
+              <ul id="menu-mobile">
+                <li className="item-Menu"><a href="#">Home</a></li>
+                <li className="item-Menu"><a href="#">Portfólio</a></li>
+                <li className="item-Menu"><a href="#">Sobre</a></li>
+                <li className="item-Menu"><a href="#">Depoimentos</a></li>
+                <li className="item-Menu"><a href="#">Área do cliente</a></li>
+               
+              </ul>
+           
+           
           </div>
         </nav>
        </header>
